@@ -29,5 +29,9 @@
 // DOCUMENT READY FUNCTION
 
 $(document).ready(function(){
+        $(button).click(function(){
+      var userchoice = $(".input").val()
+      var computerchoice = $(".input").val()
+       $("#john").append(computerchoice)
         
 });
